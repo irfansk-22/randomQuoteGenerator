@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.primary-color {
+    background-color: lightcoral;
+    color: lightcoral;
+    transition: all 1s ease-out;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conatiner {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-left-comma {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 0.15rem;
+}
+
+#random-quote {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.quote-author {
+    font-size: 1.25rem;
+    font-weight: 500;
+    align-self: flex-end;
+    margin: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 0.5rem 0.75rem;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: all 1s ease-out, filter 0.2s ease-in-out;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.social-media-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+}
+
+.copyrite {
+    color: white;
+    opacity: 0.8;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 600px) {
+    main {
+        max-width: 90vw;
+    }
+}
