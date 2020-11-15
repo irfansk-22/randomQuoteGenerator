@@ -1,4 +1,4 @@
-let new_quote = document.getElementById("generate-new-quote");
+let newQuote = document.getElementById("generate-new-quote");
 
 let themeColors = [
     "DarkMagenta",
@@ -13,7 +13,7 @@ let themeColors = [
     "GoldenRod"
 ];
 
-new_quote.addEventListener("click", function () {
+newQuote.addEventListener("click", function () {
 
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
